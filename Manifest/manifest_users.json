@@ -5,10 +5,10 @@
   "id": "148a66bb-e83d-425a-927d-09f4299a9274",
   "packageName": "com.microsoft.teams.companycommunicator",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "ASOS.COM",
+    "websiteUrl": "https://www.asos.com",
+    "privacyUrl": "https://www.asos.com",
+    "termsOfUseUrl": "https://www.asos.com"
   },
   "icons": {
     "color": "color.png",
@@ -23,20 +23,22 @@
     "full": "Broadcasts messages to multiple teams and individuals through channel posts and chat messages"
   },
   "accentColor": "#64A2CC",
-  "bots": [{
-    "botId": "<<botId>>",
-    "scopes": [
-      "personal",
-      "team"
-    ],
-    "supportsFiles": false,
-    "isNotificationOnly": true
-  }],
+  "bots": [
+    {
+      "botId": "46e1a00f-d1e8-4da3-928c-5b3ac4e881b1",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": true
+    }
+  ],
   "permissions": [
     "identity",
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "asos-communicator-poc.azurefd.net"
   ]
 }
